@@ -6,6 +6,10 @@ Answer: 4613732
 """
 
 def sumEvenFibonacci(upperBound):
+	"""
+	Sums up even numbers from the Fibonacci sequence up to upperBound 
+	(non-inclusive).
+	"""
 	ans = 0
 	prev = 1
 	cur = 1
